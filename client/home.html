@@ -1,6 +1,61 @@
 <template name="home">
     <p class="introduction">Welcome to the Thisrty Road. Here you can find all good plans to get drunk all night and have regrets the next morning. Enjoy !</p>
+
     <h2>Current Cities</h2>
-    <img class="homeimgs" href="#" />
-    <img class="homeimgs" href="#" />
+
+    <figure>
+        <img class="homeimgs" src="#" href="#" />
+        <figcaption>Aix-En-Provence</figcaption>
+    </figure>
+
+    <figure>
+        <img class="homeimgs" src="#" href="#" />
+        <figcaption>Boulogne-Sur-Mer</figcaption>
+    </figure>
+
+    {{#if currentUser}}
+        <form>
+            <input id="cityName" required="" placeholder="Name of the city">
+            <br>
+            <input id="lat" required="" placeholder="Latitude">
+            <br>
+            <input id="lon" required="" placeholder="Longitude">
+            <br>
+            <form method="POST" enctype="multipart/form-data">
+
+            <div class="uploadPanel">
+                <!-- The fileinput-button span is used to style the file input field as button -->
+
+                <div class="btn btn-primary btn-file upload-control">
+                    Browse… <input type="file" class="jqUploadclass" data-form-data="{&quot;contentType&quot;:null}">
+                </div>
+
+                <div class="form-control upload-control">
+                    <div class="progressInner">
+                        <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:0%">
+                            &nbsp;
+                        </div>
+                        <div class="progress-label">
+
+                        </div>
+                    </div>
+                </div>
+
+                <div type="submit" class="btn btn-info upload-control start">
+                    <i class="glyphicon glyphicon-upload"></i>
+                    <span>Upload</span>
+                </div>
+
+
+
+
+
+            </div>
+
+        </form>
+            <input type="submit" value="Create">
+        </form>
+    {{/if}}
+
 </template>
+
