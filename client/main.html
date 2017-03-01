@@ -1,20 +1,14 @@
-<head>
-    <title>cities</title>
-</head>
-
-<body>
-
-<h1>Welcome to Meteor!</h1>
-{{> navbar }}
-{{> register}}
-{{> home}}
-</body>
-
-<template name="register">
-    <h2>Register</h2>
-    <form class="register">
-        <p>Email: <input type="email" name="email"></p>
-        <p>Password: <input type="password" name="password"></p>
-        <p><input type="submit" value="Register"></p>
-    </form>
+<template name="main">
+    <head>
+        <title>Visiting Cities !</title>
+    </head>
+    <body>
+    <header>
+        {{>navbar}}
+        <!--{{> register}}-->
+    </header>
+    <main>
+        {{>yield}}
+    </main>
+    </body>
 </template>
