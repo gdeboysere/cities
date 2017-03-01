@@ -2,8 +2,8 @@
     <p class="introduction">Welcome to the Thisrty Road. Here you can find all good plans to get drunk all night and have regrets the next morning. Enjoy !</p>
 
     <h2>Current Cities</h2>
-    {{#each m in listdisplay}}
-    <p> {{m.City}}  </p>
+    {{#each c in listdisplay}}
+    <a href="/city/{{c._id}}">{{c.City}}</a>
     {{/each}}
 
     {{#if currentUser}}
