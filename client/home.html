@@ -7,20 +7,11 @@
     {{/each}}
 
     {{#if currentUser}}
-        <form>
-            <input id="cityName" required="" placeholder="Name of the city">
-            <br>
-            <input id="lat" required="" placeholder="Latitude">
-            <br>
-            <input id="lon" required="" placeholder="Longitude">
-            <br>
-            <form method="POST" enctype="multipart/form-data">
-        </form>
-            <input type="submit" value="Create">
-        </form>
+
+        {{> addCityForm}}
+
     {{/if}}
 
-
-
+    
 </template>
 
