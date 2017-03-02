@@ -18,8 +18,8 @@
  <section class="CurrentCities">
     <h2>Current Cities</h2>
     {{#each c in listdisplay}}
-    <a href="/city/{{c._id}}">{{c.name}}</a>
-    
+        <a href="/city/{{c._id}}">{{c.name}}</a>
+        <a href="/city/{{c._id}}"><img src="{{c.picture}}" /> </a>
     {{/each}}
 
     {{#if currentUser}}

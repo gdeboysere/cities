@@ -9,8 +9,13 @@
   margin-bottom: 10px;
         background-color: #991919;
 }
+
+#logo {
+    width: 25%;
+    height: 25%;
+}
   
-  #navbar a{
+#navbar a{
     display: inline-block;
     padding: 10px 15px;
     font-size: 1.6rem;
@@ -20,18 +25,18 @@
     transition: background-color 300ms ease-in-out, color 300ms ease-in-out;
   }
 
-  #navbar a:hover{
+#navbar a:hover{
     background-color: white;
     color: black;
   }
 
-  #navbar ul{
+#navbar ul{
 list-style-type:none;
-       }
+  }
 
-  #navbar li{
+#navbar li{
 display: inline;
-       }
+  }
 
 #signin{
     float:right;
@@ -39,6 +44,15 @@ display: inline;
     margin-top: 4px;
 }
 
+#signin a{
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 1.6rem;
+    color: black;
+    text-transform: none;
+    text-decoration: none;
+    transition: background-color 300ms ease-in-out, color 300ms ease-in-out;
+}
 
 .banner{
   position: relative;
