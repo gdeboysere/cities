@@ -1,0 +1,22 @@
+@font-face {
+    font-family: Aldine; /*a name to be used later*/
+    src: url('../fonts/aldine.ttf'); /*URL to font*/
+}
+
+#banner{
+    text-align: center;
+}
+
+#title {
+    font-family: Aldine;
+    font-size: 8em;
+}
+
+#subtitle{
+    font-family: Aldine;
+    font-size : 7em;
+}
+
+#homeimg{
+    position: absolute;
+}
