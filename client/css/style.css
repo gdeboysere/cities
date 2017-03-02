@@ -1,0 +1,33 @@
+#navbar{
+  position: relative;
+  margin-bottom: 10px;
+        background-color: #991919;
+}
+  
+  #navbar a{
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 1.6rem;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: background-color 300ms ease-in-out, color 300ms ease-in-out;
+  }
+
+  #navbar a:hover{
+    background-color: white;
+    color: black;
+  }
+
+  #navbar ul{
+list-style-type:none;
+       }
+
+  #navbar li{
+display: inline;
+       }
+
+#signin{
+    float:right;
+    margin-right: 136px;
+}
