@@ -16,18 +16,31 @@
 
     
  <section class="CurrentCities">
-    <h2>Current Cities</h2>
-    {{#each c in listdisplay}}
-        <a href="/city/{{c._id}}">{{c.name}}</a>
-        <a href="/city/{{c._id}}"><img src="{{c.picture}}" /> </a>
-    {{/each}}
+     <div class ="container-fluid">
+         <div class="row">
+            <h2>... Wanna have a drink ?</h2>
+            {{#each c in listdisplay}}
+            <div class="col-md-3 col-sm-4 col-xs-6 cityimg">
+                <img src="{{c.picture}}" href="/city/{{c._id}}"/>
+                <a href="/city/{{c._id}}">{{c.name}}</a>
+            </div>
+            {{/each}}
+             {{#each c in listdisplay}}
+                 <div class="col-md-3 col-sm-4 col-xs-6 cityimg">
+                     <img src="{{c.picture}}" href="/city/{{c._id}}"/>
+                     <a href="/city/{{c._id}}">{{c.name}}</a>
+                 </div>
+             {{/each}}
+
+         </div>
+     </div>
+    </section>
 
     {{#if currentUser}}
 
         {{> addCityForm}}
 
     {{/if}}
-    </section>
     
 </template>
 

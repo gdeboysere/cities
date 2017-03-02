@@ -145,3 +145,12 @@ font-family: "Aldine";
     width: 20%;
     margin-left: 40%;
 }
+
+.cityimg{
+    display: block;
+    position: relative;
+}
+
+.cityimg img{
+    width: 100%;
+}
