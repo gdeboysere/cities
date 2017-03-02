@@ -1,0 +1,901 @@
+db.s2.insert([{
+  "BarName": "VonRueden-Schmidt",
+  "BarCity": "Lille",
+  "BarDescription": "London.",
+  "Drinks": [
+    {
+      "beer": {
+        "price": 2.99,
+        "available": false,
+        "rating": 2
+      },
+      "Vodka": {
+        "price": 3.99,
+        "available": false,
+        "rating": 2
+      }
+    }
+  ]
+}, {
+  "BarName": "Champlin Inc",
+  "BarCity": "Cork",
+  "BarDescription": "1606 Lounge Bar is a cosy space for light meals",
+  "Drinks": [
+    {
+      "beer": {
+        "price": 3.99,
+        "available": true,
+        "rating": 1
+      },
+      "Vodka": {
+        "price": 4.8,
+        "available": false,
+        "rating": 5
+      }
+    }
+  ]
+}, {
+  "BarName": "White Inc",
+  "BarCity": "Lens",
+  "BarDescription": "snacks and cocktails throughout the day and evening",
+  "Drinks": [
+    {
+      "beer": {
+        "price": 2.99,
+        "available": true,
+        "rating": 1
+      },
+      "Vodka": {
+        "price": 3.99,
+        "available": false,
+        "rating": 2
+      }
+    }
+  ]
+}, {
+  "BarName": "Tromp-Glover",
+  "BarCity": "Lens",
+  "BarDescription": "snacks and cocktails throughout the day and evening",
+  "Drinks": [
+    {
+      "beer": {
+        "price": 5.49,
+        "available": true,
+        "rating": 4
+      },
+      "Vodka": {
+        "price": 6.99,
+        "available": false,
+        "rating": 3
+      }
+    }
+  ]
+}, {
+  "BarName": "Hessel, Dicki and Leuschke",
+  "BarCity": "Paris",
+  "BarDescription": "1606 Lounge Bar is a cosy space for light meals",
+  "Drinks": [
+    {
+      "beer": {
+        "price": 2.99,
+        "available": true,
+        "rating": 5
+      },
+      "Vodka": {
+        "price": 5.49,
+        "available": true,
+        "rating": 5
+      }
+    }
+  ]
+}, {
+  "BarName": "Feil and Sons",
+  "BarCity": "Lille",
+  "BarDescription": "Come to the Rembrandt Hotel for a light meal",
+  "Drinks": [
+    {
+      "beer": {
+        "price": 4.8,
+        "available": true,
+        "rating": 2
+      },
+      "Vodka": {
+        "price": 4.99,
+        "available": false,
+        "rating": 2
+      }
+    }
+  ]
+}, {
+  "BarName": "Thiel-Marvin",
+  "BarCity": "Lille",
+  "BarDescription": "Come to the Rembrandt Hotel for a light meal",
+  "Drinks": [
+    {
+      "beer": {
+        "price": 4.99,
+        "available": true,
+        "rating": 1
+      },
+      "Vodka": {
+        "price": 3.99,
+        "available": true,
+        "rating": 1
+      }
+    }
+  ]
+}, {
+  "BarName": "Larson-Frami",
+  "BarCity": "Paris",
+  "BarDescription": "snacks and cocktails throughout the day and evening",
+  "Drinks": [
+    {
+      "beer": {
+        "price": 3.25,
+        "available": false,
+        "rating": 4
+      },
+      "Vodka": {
+        "price": 3.25,
+        "available": false,
+        "rating": 5
+      }
+    }
+  ]
+}, {
+  "BarName": "Hyatt, Smith and Rath",
+  "BarCity": "Cork",
+  "BarDescription": "snacks and cocktails throughout the day and evening",
+  "Drinks": [
+    {
+      "beer": {
+        "price": 2.99,
+        "available": true,
+        "rating": 1
+      },
+      "Vodka": {
+        "price": 2.99,
+        "available": true,
+        "rating": 5
+      }
+    }
+  ]
+}, {
+  "BarName": "Denesik, Wilkinson and Haley",
+  "BarCity": "Cork",
+  "BarDescription": "London.",
+  "Drinks": [
+    {
+      "beer": {
+        "price": 3.99,
+        "available": false,
+        "rating": 5
+      },
+      "Vodka": {
+        "price": 3.99,
+        "available": false,
+        "rating": 3
+      }
+    }
+  ]
+}, {
+  "BarName": "Powlowski-Volkman",
+  "BarCity": "Dublin",
+  "BarDescription": "With its comfy sofas and armchairs and its crackling fire in winter",
+  "Drinks": [
+    {
+      "beer": {
+        "price": 4.8,
+        "available": true,
+        "rating": 2
+      },
+      "Vodka": {
+        "price": 7.99,
+        "available": false,
+        "rating": 4
+      }
+    }
+  ]
+}, {
+  "BarName": "Huel-Hagenes",
+  "BarCity": "Lens",
+  "BarDescription": "snacks and cocktails throughout the day and evening",
+  "Drinks": [
+    {
+      "beer": {
+        "price": 7.99,
+        "available": false,
+        "rating": 4
+      },
+      "Vodka": {
+        "price": 3.25,
+        "available": true,
+        "rating": 4
+      }
+    }
+  ]
+}, {
+  "BarName": "Turner LLC",
+  "BarCity": "Cork",
+  "BarDescription": "London.",
+  "Drinks": [
+    {
+      "beer": {
+        "price": 6,
+        "available": false,
+        "rating": 4
+      },
+      "Vodka": {
+        "price": 3.99,
+        "available": true,
+        "rating": 4
+      }
+    }
+  ]
+}, {
+  "BarName": "Lowe Group",
+  "BarCity": "Paris",
+  "BarDescription": "With its comfy sofas and armchairs and its crackling fire in winter",
+  "Drinks": [
+    {
+      "beer": {
+        "price": 4.8,
+        "available": false,
+        "rating": 4
+      },
+      "Vodka": {
+        "price": 6,
+        "available": true,
+        "rating": 4
+      }
+    }
+  ]
+}, {
+  "BarName": "Corwin, Stehr and Cruickshank",
+  "BarCity": "Lens",
+  "BarDescription": "London.",
+  "Drinks": [
+    {
+      "beer": {
+        "price": 6,
+        "available": false,
+        "rating": 5
+      },
+      "Vodka": {
+        "price": 7.99,
+        "available": true,
+        "rating": 4
+      }
+    }
+  ]
+}, {
+  "BarName": "Swaniawski-DuBuque",
+  "BarCity": "Cork",
+  "BarDescription": "Come to the Rembrandt Hotel for a light meal",
+  "Drinks": [
+    {
+      "beer": {
+        "price": 4.99,
+        "available": false,
+        "rating": 3
+      },
+      "Vodka": {
+        "price": 3.99,
+        "available": true,
+        "rating": 3
+      }
+    }
+  ]
+}, {
+  "BarName": "Cruickshank and Sons",
+  "BarCity": "Lens",
+  "BarDescription": "Come to the Rembrandt Hotel for a light meal",
+  "Drinks": [
+    {
+      "beer": {
+        "price": 9.1,
+        "available": false,
+        "rating": 2
+      },
+      "Vodka": {
+        "price": 6.99,
+        "available": false,
+        "rating": 1
+      }
+    }
+  ]
+}, {
+  "BarName": "Johnson, Treutel and Wolff",
+  "BarCity": "Lens",
+  "BarDescription": "Come to the Rembrandt Hotel for a light meal",
+  "Drinks": [
+    {
+      "beer": {
+        "price": 6,
+        "available": false,
+        "rating": 3
+      },
+      "Vodka": {
+        "price": 7.99,
+        "available": false,
+        "rating": 2
+      }
+    }
+  ]
+}, {
+  "BarName": "Dickens-Bosco",
+  "BarCity": "Lens",
+  "BarDescription": "London.",
+  "Drinks": [
+    {
+      "beer": {
+        "price": 6,
+        "available": false,
+        "rating": 3
+      },
+      "Vodka": {
+        "price": 2.99,
+        "available": false,
+        "rating": 3
+      }
+    }
+  ]
+}, {
+  "BarName": "Thompson, Aufderhar and Kuhn",
+  "BarCity": "Paris",
+  "BarDescription": "snacks and cocktails throughout the day and evening",
+  "Drinks": [
+    {
+      "beer": {
+        "price": 9.1,
+        "available": false,
+        "rating": 3
+      },
+      "Vodka": {
+        "price": 3.99,
+        "available": false,
+        "rating": 4
+      }
+    }
+  ]
+}, {
+  "BarName": "Stehr-Hagenes",
+  "BarCity": "Lens",
+  "BarDescription": "Come to the Rembrandt Hotel for a light meal",
+  "Drinks": [
+    {
+      "beer": {
+        "price": 4.8,
+        "available": false,
+        "rating": 2
+      },
+      "Vodka": {
+        "price": 2.99,
+        "available": true,
+        "rating": 4
+      }
+    }
+  ]
+}, {
+  "BarName": "Stroman, Hudson and Reichel",
+  "BarCity": "Dublin",
+  "BarDescription": "afternoon tea or a glass of wine after visiting the museums and shops of South Kensington",
+  "Drinks": [
+    {
+      "beer": {
+        "price": 2.99,
+        "available": true,
+        "rating": 2
+      },
+      "Vodka": {
+        "price": 9.1,
+        "available": false,
+        "rating": 3
+      }
+    }
+  ]
+}, {
+  "BarName": "Dooley LLC",
+  "BarCity": "Paris",
+  "BarDescription": "1606 Lounge Bar is a cosy space for light meals",
+  "Drinks": [
+    {
+      "beer": {
+        "price": 9.1,
+        "available": true,
+        "rating": 3
+      },
+      "Vodka": {
+        "price": 7.99,
+        "available": false,
+        "rating": 1
+      }
+    }
+  ]
+}, {
+  "BarName": "Sipes, Orn and Jaskolski",
+  "BarCity": "Paris",
+  "BarDescription": "1606 Lounge Bar is a cosy space for light meals",
+  "Drinks": [
+    {
+      "beer": {
+        "price": 2.99,
+        "available": false,
+        "rating": 2
+      },
+      "Vodka": {
+        "price": 6,
+        "available": true,
+        "rating": 4
+      }
+    }
+  ]
+}, {
+  "BarName": "Ferry-Goyette",
+  "BarCity": "Cork",
+  "BarDescription": "1606 Lounge Bar is a cosy space for light meals",
+  "Drinks": [
+    {
+      "beer": {
+        "price": 5.49,
+        "available": false,
+        "rating": 3
+      },
+      "Vodka": {
+        "price": 3.99,
+        "available": true,
+        "rating": 5
+      }
+    }
+  ]
+}, {
+  "BarName": "Rempel-Aufderhar",
+  "BarCity": "Lens",
+  "BarDescription": "With its comfy sofas and armchairs and its crackling fire in winter",
+  "Drinks": [
+    {
+      "beer": {
+        "price": 5.49,
+        "available": true,
+        "rating": 2
+      },
+      "Vodka": {
+        "price": 4.99,
+        "available": false,
+        "rating": 5
+      }
+    }
+  ]
+}, {
+  "BarName": "Ullrich, Prosacco and Hodkiewicz",
+  "BarCity": "Lens",
+  "BarDescription": "Come to the Rembrandt Hotel for a light meal",
+  "Drinks": [
+    {
+      "beer": {
+        "price": 7.99,
+        "available": true,
+        "rating": 2
+      },
+      "Vodka": {
+        "price": 5.49,
+        "available": true,
+        "rating": 2
+      }
+    }
+  ]
+}, {
+  "BarName": "Auer Inc",
+  "BarCity": "Lens",
+  "BarDescription": "1606 Lounge Bar is a cosy space for light meals",
+  "Drinks": [
+    {
+      "beer": {
+        "price": 9.1,
+        "available": true,
+        "rating": 1
+      },
+      "Vodka": {
+        "price": 4.8,
+        "available": true,
+        "rating": 5
+      }
+    }
+  ]
+}, {
+  "BarName": "Quitzon, Rowe and Lueilwitz",
+  "BarCity": "Lens",
+  "BarDescription": "With its comfy sofas and armchairs and its crackling fire in winter",
+  "Drinks": [
+    {
+      "beer": {
+        "price": 6,
+        "available": false,
+        "rating": 1
+      },
+      "Vodka": {
+        "price": 2.99,
+        "available": true,
+        "rating": 2
+      }
+    }
+  ]
+}, {
+  "BarName": "Bergnaum Inc",
+  "BarCity": "Lens",
+  "BarDescription": "snacks and cocktails throughout the day and evening",
+  "Drinks": [
+    {
+      "beer": {
+        "price": 3.25,
+        "available": true,
+        "rating": 5
+      },
+      "Vodka": {
+        "price": 3.99,
+        "available": false,
+        "rating": 1
+      }
+    }
+  ]
+}, {
+  "BarName": "Lemke Inc",
+  "BarCity": "Cork",
+  "BarDescription": "Come to the Rembrandt Hotel for a light meal",
+  "Drinks": [
+    {
+      "beer": {
+        "price": 6,
+        "available": false,
+        "rating": 2
+      },
+      "Vodka": {
+        "price": 6,
+        "available": false,
+        "rating": 2
+      }
+    }
+  ]
+}, {
+  "BarName": "Schumm-Ward",
+  "BarCity": "Lens",
+  "BarDescription": "Come to the Rembrandt Hotel for a light meal",
+  "Drinks": [
+    {
+      "beer": {
+        "price": 5.49,
+        "available": true,
+        "rating": 1
+      },
+      "Vodka": {
+        "price": 3.99,
+        "available": false,
+        "rating": 5
+      }
+    }
+  ]
+}, {
+  "BarName": "Anderson-Schultz",
+  "BarCity": "Dublin",
+  "BarDescription": "London.",
+  "Drinks": [
+    {
+      "beer": {
+        "price": 9.1,
+        "available": true,
+        "rating": 1
+      },
+      "Vodka": {
+        "price": 6,
+        "available": true,
+        "rating": 4
+      }
+    }
+  ]
+}, {
+  "BarName": "Bogan-Abbott",
+  "BarCity": "Paris",
+  "BarDescription": "afternoon tea or a glass of wine after visiting the museums and shops of South Kensington",
+  "Drinks": [
+    {
+      "beer": {
+        "price": 6,
+        "available": true,
+        "rating": 3
+      },
+      "Vodka": {
+        "price": 6,
+        "available": true,
+        "rating": 1
+      }
+    }
+  ]
+}, {
+  "BarName": "Zieme Inc",
+  "BarCity": "Cork",
+  "BarDescription": "afternoon tea or a glass of wine after visiting the museums and shops of South Kensington",
+  "Drinks": [
+    {
+      "beer": {
+        "price": 6.99,
+        "available": true,
+        "rating": 5
+      },
+      "Vodka": {
+        "price": 5.49,
+        "available": true,
+        "rating": 2
+      }
+    }
+  ]
+}, {
+  "BarName": "Predovic LLC",
+  "BarCity": "Lille",
+  "BarDescription": "Come to the Rembrandt Hotel for a light meal",
+  "Drinks": [
+    {
+      "beer": {
+        "price": 6.99,
+        "available": true,
+        "rating": 5
+      },
+      "Vodka": {
+        "price": 6,
+        "available": true,
+        "rating": 1
+      }
+    }
+  ]
+}, {
+  "BarName": "Harvey and Sons",
+  "BarCity": "Lille",
+  "BarDescription": "snacks and cocktails throughout the day and evening",
+  "Drinks": [
+    {
+      "beer": {
+        "price": 4.99,
+        "available": true,
+        "rating": 5
+      },
+      "Vodka": {
+        "price": 3.25,
+        "available": false,
+        "rating": 3
+      }
+    }
+  ]
+}, {
+  "BarName": "Hammes and Sons",
+  "BarCity": "Paris",
+  "BarDescription": "With its comfy sofas and armchairs and its crackling fire in winter",
+  "Drinks": [
+    {
+      "beer": {
+        "price": 6.99,
+        "available": false,
+        "rating": 3
+      },
+      "Vodka": {
+        "price": 4.99,
+        "available": false,
+        "rating": 5
+      }
+    }
+  ]
+}, {
+  "BarName": "Mraz Inc",
+  "BarCity": "Lille",
+  "BarDescription": "1606 Lounge Bar is a cosy space for light meals",
+  "Drinks": [
+    {
+      "beer": {
+        "price": 6,
+        "available": true,
+        "rating": 2
+      },
+      "Vodka": {
+        "price": 5.49,
+        "available": false,
+        "rating": 1
+      }
+    }
+  ]
+}, {
+  "BarName": "Treutel, Pouros and Sanford",
+  "BarCity": "Paris",
+  "BarDescription": "1606 Lounge Bar is a cosy space for light meals",
+  "Drinks": [
+    {
+      "beer": {
+        "price": 2.99,
+        "available": true,
+        "rating": 3
+      },
+      "Vodka": {
+        "price": 9.1,
+        "available": false,
+        "rating": 5
+      }
+    }
+  ]
+}, {
+  "BarName": "Emmerich and Sons",
+  "BarCity": "Lille",
+  "BarDescription": "snacks and cocktails throughout the day and evening",
+  "Drinks": [
+    {
+      "beer": {
+        "price": 3.25,
+        "available": true,
+        "rating": 1
+      },
+      "Vodka": {
+        "price": 3.25,
+        "available": true,
+        "rating": 2
+      }
+    }
+  ]
+}, {
+  "BarName": "Leuschke Inc",
+  "BarCity": "Lens",
+  "BarDescription": "afternoon tea or a glass of wine after visiting the museums and shops of South Kensington",
+  "Drinks": [
+    {
+      "beer": {
+        "price": 4.99,
+        "available": false,
+        "rating": 5
+      },
+      "Vodka": {
+        "price": 6,
+        "available": false,
+        "rating": 1
+      }
+    }
+  ]
+}, {
+  "BarName": "Mosciski, Balistreri and Upton",
+  "BarCity": "Cork",
+  "BarDescription": "afternoon tea or a glass of wine after visiting the museums and shops of South Kensington",
+  "Drinks": [
+    {
+      "beer": {
+        "price": 7.99,
+        "available": false,
+        "rating": 4
+      },
+      "Vodka": {
+        "price": 4.99,
+        "available": true,
+        "rating": 4
+      }
+    }
+  ]
+}, {
+  "BarName": "Macejkovic-Jacobson",
+  "BarCity": "Lens",
+  "BarDescription": "London.",
+  "Drinks": [
+    {
+      "beer": {
+        "price": 4.8,
+        "available": false,
+        "rating": 3
+      },
+      "Vodka": {
+        "price": 9.1,
+        "available": false,
+        "rating": 3
+      }
+    }
+  ]
+}, {
+  "BarName": "Bosco, Boyer and Beer",
+  "BarCity": "Cork",
+  "BarDescription": "Come to the Rembrandt Hotel for a light meal",
+  "Drinks": [
+    {
+      "beer": {
+        "price": 3.25,
+        "available": true,
+        "rating": 5
+      },
+      "Vodka": {
+        "price": 2.99,
+        "available": false,
+        "rating": 5
+      }
+    }
+  ]
+}, {
+  "BarName": "Ward, Tromp and Farrell",
+  "BarCity": "Lille",
+  "BarDescription": "With its comfy sofas and armchairs and its crackling fire in winter",
+  "Drinks": [
+    {
+      "beer": {
+        "price": 4.99,
+        "available": true,
+        "rating": 3
+      },
+      "Vodka": {
+        "price": 9.1,
+        "available": false,
+        "rating": 3
+      }
+    }
+  ]
+}, {
+  "BarName": "Schamberger, O'Connell and Kemmer",
+  "BarCity": "Dublin",
+  "BarDescription": "London.",
+  "Drinks": [
+    {
+      "beer": {
+        "price": 6.99,
+        "available": true,
+        "rating": 4
+      },
+      "Vodka": {
+        "price": 3.25,
+        "available": false,
+        "rating": 4
+      }
+    }
+  ]
+}, {
+  "BarName": "Schroeder and Sons",
+  "BarCity": "Dublin",
+  "BarDescription": "London.",
+  "Drinks": [
+    {
+      "beer": {
+        "price": 6.99,
+        "available": false,
+        "rating": 5
+      },
+      "Vodka": {
+        "price": 7.99,
+        "available": true,
+        "rating": 2
+      }
+    }
+  ]
+}, {
+  "BarName": "Hansen LLC",
+  "BarCity": "Cork",
+  "BarDescription": "Come to the Rembrandt Hotel for a light meal",
+  "Drinks": [
+    {
+      "beer": {
+        "price": 2.99,
+        "available": true,
+        "rating": 2
+      },
+      "Vodka": {
+        "price": 3.25,
+        "available": true,
+        "rating": 2
+      }
+    }
+  ]
+}, {
+  "BarName": "Wilderman-Rohan",
+  "BarCity": "Cork",
+  "BarDescription": "With its comfy sofas and armchairs and its crackling fire in winter",
+  "Drinks": [
+    {
+      "beer": {
+        "price": 7.99,
+        "available": false,
+        "rating": 1
+      },
+      "Vodka": {
+        "price": 4.8,
+        "available": false,
+        "rating": 5
+      }
+    }
+  ]
+}]);
