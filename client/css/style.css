@@ -1,3 +1,9 @@
+@font-face {
+    font-family:"Aldine";
+    src: url('fonts/aldine.ttf');
+}
+
+
 #navbar{
   position: relative;
   margin-bottom: 10px;
@@ -30,4 +36,51 @@ display: inline;
 #signin{
     float:right;
     margin-right: 136px;
+}
+
+
+.banner{
+  position: relative;
+  height: 900px; 
+  overflow: hidden;
+bottom: 10px;
+}
+.banner-desc{
+  position: absolute; 
+  z-index: 2;
+  width: 100%;
+  top:50%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+.banner-desc h1{
+font-family: "Aldine";
+  font-size: 15rem;
+  line-height: 1;
+  color:white;
+  margin-bottom: 10px;
+}
+.banner-img{
+  position: absolute; 
+    width: 1920px; 
+  z-index: 0;
+  transform: translateX(-50%);
+  /* ou margin-left: -960px;  */
+  left: 50%; 
+  top:0;
+}
+
+.banner-img img{
+    width: 100vw;
+}
+
+.banner-img-overlay{
+  position: absolute; 
+  height: 100%; 
+  width: 100%;
+  top:0;
+  left:0;
+  background: rgba(0,0,0,0.5);
+  z-index: 1;
 }
