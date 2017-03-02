@@ -2,23 +2,20 @@
 <!--    <p class="introduction">Welcome to the Thisrty Road. Here you can find all good plans to get drunk all night and have regrets the next morning. Enjoy !</p>-->
     
  <section class="banner">
-
   <div class="banner-desc">
     <h1>Thirsty Road</h1>
     <h1 class="title-like">Find your way to drink</h1>
   </div>
-  
   <div class="banner-img">
       <img src="images/banner.jpg">
   </div>
-  
-    <!-- fond semi opaque noir au dessus de la video --> 
-    <div class="banner-img-overlay"></div>
-  
+  <div class="banner-img-overlay"></div>
 </section>
 
     {{> searchbar}}
 
+    
+ <section class="CurrentCities">
     <h2>Current Cities</h2>
     {{#each c in listdisplay}}
     <a href="/city/{{c._id}}">{{c.name}}</a>
@@ -30,7 +27,7 @@
         {{> addCityForm}}
 
     {{/if}}
-
+    </section>
     
 </template>
 
