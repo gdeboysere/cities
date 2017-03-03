@@ -1,4 +1,6 @@
-Template.search.events({
+Session.setDefault ("q",{});
+
+Template.searchbar.events({
     'submit form': function(event){
         event.preventDefault();
         var cityName = $("#location").val();
@@ -6,14 +8,24 @@ Template.search.events({
         if(cityName != "") 
             query.BarCity = cityName;
 
-        if($("#beer").is(':checked'))
-            query.Drinks = "beer";
-       
-        console.log(Bar.find(query));
-        return Bar.find(query);
+        if($("#beer").is(':checked')){
+            query["Drinks.beer.available"]= true;
+        }
+        if($("#vodka").is(':checked')){
+            query["Drinks.Vodka.available"]= true;
+        }
+       Session.set ("q",query);
+        
+        console.log(query , Bar.find(query).count());
+
+        /*return Bar.find(query);*/
+        
+  
     }
 });
-
-/*Template.search.helpers({
-    "displayBar"
-})*/
+ Template.searchbar.helpers({
+    "searchdisplay" : function() {
+        var query = Session.get("q");
+         return Bar.find(query);
+     }
+ })

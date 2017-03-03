@@ -8,7 +8,13 @@
             <input type="checkbox" name="vodka" id="vodka" /> <label for="vodka">Vodka</label><br />
             <input type="checkbox" name="whiskey" id="whiskey" /> <label for="whiskey">Whiskey</label><br />
             <input type="checkbox" name="cocktail" id="cocktail" /> <label for="cocktail">Cocktail</label>
+            <p><input type="submit" value="Search"></p>
 
         </p>
     </form>
+    {{#each b in searchdisplay }}
+            <p>{{b.BarName}}</p>
+            <p>{{b.BarCity}}</p>
+
+    {{/each}}
 </template>
