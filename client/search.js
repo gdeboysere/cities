@@ -9,10 +9,10 @@ Template.searchbar.events({
             query.BarCity = cityName;
 
         if($("#beer").is(':checked')){
-            query["Drinks.beer.available"]= true;
+            query["Drinks.Beer.Available"]= true;
         }
         if($("#vodka").is(':checked')){
-            query["Drinks.Vodka.available"]= true;
+            query["Drinks.Vodka.Available"]= true;
         }
        Session.set ("q",query);
         
@@ -23,9 +23,18 @@ Template.searchbar.events({
   
     }
 });
- Template.searchbar.helpers({
+ // Template.searchbar.helpers({
+ //    "searchdisplay" : function() {
+ //        var query = Session.get("q");
+ //         return Bar.find(query);
+ //     }
+ // })
+
+Template.home.helpers({
     "searchdisplay" : function() {
         var query = Session.get("q");
-         return Bar.find(query);
-     }
- })
+        if (JSON.stringify(query) === JSON.stringify({}))
+            return ;
+        return Bar.find(query);
+    }
+})

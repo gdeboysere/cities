@@ -23,18 +23,18 @@
      <div class ="container-fluid2">
          <div class="row">
             <h2>... Wanna have a drink ?</h2>
-            {{#each c in listdisplay}}
+            {{#each b in searchdisplay}}
             <div class="col-md-3 col-sm-4 col-xs-6 cityimg">
-                <img src="{{c.picture}}" href="/city/{{c._id}}"/>
-                <a class="cityname" href="/city/{{c._id}}">{{c.name}}</a>
+                <img src="/images/citybg.jpg" href="/city/{{b._id}}"/>
+                <a class="cityname" href="/bar/{{b._id}}">{{b.BarName}}</a>
             </div>
             {{/each}}
-                         {{#each c in listdisplay}}
-            <div class="col-md-3 col-sm-4 col-xs-6 cityimg">
-                <img src="{{c.picture}}" href="/city/{{c._id}}"/>
-                <a class="cityname" href="/city/{{c._id}}">{{c.name}}</a>
-            </div>
-            {{/each}}
+                         <!--{{#each c in listdisplay}}-->
+            <!--<div class="col-md-3 col-sm-4 col-xs-6 cityimg">-->
+                <!--<img src="{{c.picture}}" href="/city/{{c._id}}"/>-->
+                <!--<a class="cityname" href="/city/{{c._id}}">{{c.name}}</a>-->
+            <!--</div>-->
+            <!--{{/each}}-->
              
             
          </div>
