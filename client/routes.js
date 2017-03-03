@@ -7,10 +7,10 @@ Router.route("/", {
     template: "home"
 });
 
- Router.route('/city/:id', {
+ Router.route('/bar/:id', {
      template: "city",
      data: function () {
-         return Cities.findOne(this.params.id);
+         return Bar.findOne(this.params.id);
          // Return the document for the selected city (the one whose id is given)
          // The value of this id is given by  this.params.id
      }
