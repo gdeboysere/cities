@@ -1,9 +1,21 @@
 <template name="city">
-    <div class="container">
-        <div class="row">
-            <p>{{name}}</p>
-            <p>{{picture}}</p>
-            <p>{{description}}</p>
+
+    <!--<style type="text/css">-->
+        <!--.bgimg {-->
+            <!--background-image: url('{{picture}}');       /*Background based on city image*/-->
+            <!--background-repeat: no-repeat;-->
+            <!--width: 100%;-->
+        <!--}-->
+    <!--</style>-->
+
+
+    <div class="container-fluid">
+        <div class="row citybg">
+            <div class="col-md-3">
+                <p>{{description}}</p>
+            </div>
         </div>
     </div>
+    <p id="cityname">Welcome in {{name}}</p>
 </template>
+
