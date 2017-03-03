@@ -5,16 +5,16 @@
 
 
 #navbar{
-  position: relative;
-  margin-bottom: 10px;
-        background-color: #991919;
+    position: relative;
+    margin-bottom: 10px;
+    background-color: #991919;
 }
 
 #logo {
     width: 25%;
     height: 25%;
 }
-  
+
 #navbar a{
     display: inline-block;
     padding: 10px 15px;
@@ -23,20 +23,20 @@
     text-transform: uppercase;
     text-decoration: none;
     transition: background-color 300ms ease-in-out, color 300ms ease-in-out;
-  }
+}
 
 #navbar a:hover{
     background-color: white;
     color: black;
-  }
+}
 
 #navbar ul{
-list-style-type:none;
-  }
+    list-style-type:none;
+}
 
 #navbar li{
-display: inline;
-  }
+    display: inline;
+}
 
 #signin{
     float:right;
@@ -56,12 +56,12 @@ display: inline;
 
 .banner{
   position: relative;
-  height: 900px; 
+  height: 900px;
   overflow: hidden;
-bottom: 10px;
+    bottom: 10px;
 }
 .banner-desc{
-  position: absolute; 
+  position: absolute;
   z-index: 2;
   width: 100%;
   top:110%;
@@ -71,48 +71,48 @@ bottom: 10px;
 
 .title-like{
     font-family: "Aldine";
-  font-size: 12rem;
+    font-size: 12rem;
 }
 
 
 .about{
-  position: relative;
-  height: 900px; 
+    position: relative;
+    height: 900px;
     bottom: 10px;
 }
 
 .about-desc{
-  position: absolute; 
-  z-index: 2;
-  width: 100%;
-  top:90%;
-  transform: translateY(-50%);
-  text-align: center;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    top:90%;
+    transform: translateY(-50%);
+    text-align: center;
 }
 
 .about-desc h1{
-font-family: "Aldine";
-  font-size: 12rem;
-  line-height: 1;
-  color:black;
-  margin-bottom: 10px;
+    font-family: "Aldine";
+    font-size: 12rem;
+    line-height: 1;
+    color:black;
+    margin-bottom: 10px;
 }
 
 .banner-desc h1{
-font-family: "Aldine";
-  font-size: 15rem;
-  line-height: 1;
-  color:black;
-  margin-bottom: 10px;
+    font-family: "Aldine";
+    font-size: 15rem;
+    line-height: 1;
+    color:black;
+    margin-bottom: 10px;
 }
 .banner-img{
-  position: absolute; 
-    width: 1920px; 
-  z-index: 0;
-  transform: translateX(-50%);
-  /* ou margin-left: -960px;  */
-  left: 50%; 
-  top:0;
+    position: absolute;
+    width: 1920px;
+    z-index: 0;
+    transform: translateX(-50%);
+    /* ou margin-left: -960px;  */
+    left: 50%;
+    top:0;
 }
 
 .banner-img img{
@@ -122,13 +122,13 @@ font-family: "Aldine";
 }
 
 .banner-img-overlay{
-  position: absolute; 
-  height: 100%; 
-  width: 100%;
-  top:0;
-  left:0;
-  background: rgba(0,0,0,0.23);
-  z-index: 1;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top:0;
+    left:0;
+    background: rgba(0,0,0,0.23);
+    z-index: 1;
 }
 
 .CurrentCities h2{
@@ -153,4 +153,19 @@ font-family: "Aldine";
 
 .cityimg img{
     width: 100%;
+}
+
+#cityname{
+    color: white;
+    font-family:'Aldine';
+    font-size: 8rem;
+    text-align: center;
+    background-color: black;
+}
+
+.citybgimg{
+    overflow: hidden;
+    max-height: 650px;
+    width: 100%;
+    display: block;
 }
