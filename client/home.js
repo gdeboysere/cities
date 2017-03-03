@@ -1,5 +1,5 @@
-Template.home.helpers({
-    "listdisplay" : function() {
-       return Cities.find({}); 
-    }
-})
+// Template.home.helpers({
+//     "listdisplay" : function() {
+//        return Cities.find({});
+//     }
+// })
