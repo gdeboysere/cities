@@ -2,36 +2,35 @@
 <!--    <p class="introduction">Welcome to the Thisrty Road. Here you can find all good plans to get drunk all night and have regrets the next morning. Enjoy !</p>-->
     
  <section class="banner">
+      <div class ="container-fluid">
+         <div class="row">
   <div class="banner-desc">
     <h1>Thirsty Road</h1>
     <h1 class="title-like">Find your way to drink</h1>
   </div>
   <div class="banner-img">
-      <img src="images/banner.jpg">
+      <img class="img-responsive" src="images/banner.jpg">
   </div>
   <div class="banner-img-overlay"></div>
+                   </div>
+     </div>
 </section>
 
     {{> searchbar}}
 
     
  <section class="CurrentCities">
-     <div class ="container-fluid">
+     <div class ="container-fluid2">
          <div class="row">
             <h2>... Wanna have a drink ?</h2>
             {{#each c in listdisplay}}
             <div class="col-md-3 col-sm-4 col-xs-6 cityimg">
                 <img src="{{c.picture}}" href="/city/{{c._id}}"/>
-                <a href="/city/{{c._id}}">{{c.name}}</a>
+                <a class="cityname" href="/city/{{c._id}}">{{c.name}}</a>
             </div>
             {{/each}}
-             {{#each c in listdisplay}}
-                 <div class="col-md-3 col-sm-4 col-xs-6 cityimg">
-                     <img src="{{c.picture}}" href="/city/{{c._id}}"/>
-                     <a href="/city/{{c._id}}">{{c.name}}</a>
-                 </div>
-             {{/each}}
-
+             
+            
          </div>
      </div>
     </section>
