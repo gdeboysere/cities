@@ -9,8 +9,7 @@
     <h1 class="title-like">Find your way to drink</h1>
   </div>
   <div class="banner-img">
-      <img class="img-responsive" src="/images/banner.jpg">
-
+      <img class="img-responsive" src="images/banner.jpg">
   </div>
   <div class="banner-img-overlay"></div>
                    </div>
@@ -25,6 +24,12 @@
          <div class="row">
             <h2>... Wanna have a drink ?</h2>
             {{#each c in listdisplay}}
+            <div class="col-md-3 col-sm-4 col-xs-6 cityimg">
+                <img src="{{c.picture}}" href="/city/{{c._id}}"/>
+                <a class="cityname" href="/city/{{c._id}}">{{c.name}}</a>
+            </div>
+            {{/each}}
+                         {{#each c in listdisplay}}
             <div class="col-md-3 col-sm-4 col-xs-6 cityimg">
                 <img src="{{c.picture}}" href="/city/{{c._id}}"/>
                 <a class="cityname" href="/city/{{c._id}}">{{c.name}}</a>
