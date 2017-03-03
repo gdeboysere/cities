@@ -9,14 +9,57 @@
     <!--</style>-->
 
 
-    <div class="container-fluid">
-        <div class="row">
-            <img class="img-responsive citybgimg" src="images/citybg.jpg">
-            <div class="col-md-3">
-                <p>{{description}}</p>
-            </div>
+    
+<section class="banner">
+    <div class ="container-fluid">
+         <div class="row">
+             <div class="banner-img">
+                 <img class="img-responsive citybgimg" src="images/citybg.jpg">
+             </div>
+        <div class="banner-desc">
+            <p id="mainname">Welcome in {{name}}</p>
+        <p class="descriptiontr">{{description}}</p>
+        </div>
+
         </div>
     </div>
-    <p id="mainname">Welcome in {{name}}</p>
+
+</section>
+    <div class="rating">
+        <img class="img-responsive ratingimg" src="images/rating.png">
+    </div>
+    
+    <div class="container">  
+  <form id="contact" action="" method="post">
+    <h3>Post a comment</h3>
+    <fieldset>
+      <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
+    </fieldset>
+    <fieldset>
+      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+    </fieldset>
+  </form>
+</div>
+    
+    <div class="comments">
+        
+        <p class="comtitle">Comments</p>
+       <div class="between">
+        <p class="username">Username</p>
+        <p>blablala</p>
+        </div>
+       
+       <div class="between">
+        <p class="username">Username</p>
+        <p>blablala</p>
+        </div>
+        
+       
+        <p class="username">Username</p>
+        <p>blablala</p>
+   
+    </div>
 </template>
+    
+    
 
