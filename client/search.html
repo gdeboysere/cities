@@ -1,17 +1,22 @@
 <template name="searchbar">
+  <div class="recherche">
     <form>
-        <p>
-            <label for="location">Where do you want to drink ?</label>
-            <input type="text" name="location" id="location" />
-            Which alcohol do you want to drink ?
-            <input type="checkbox" name="beer" id="beer" /> <label for="beer">Beer</label><br />
-            <input type="checkbox" name="vodka" id="vodka" /> <label for="vodka">Vodka</label><br />
-            <input type="checkbox" name="whiskey" id="whiskey" /> <label for="whiskey">Whiskey</label><br />
-            <input type="checkbox" name="cocktail" id="cocktail" /> <label for="cocktail">Cocktail</label>
-            <p><input type="submit" value="Search"></p>
-
-        </p>
+        <form action="/search.html" class="search-wrapper cf">
+        <input  class="bar" type="text" placeholder="Where do you want to drink ?" required="">
+        <button type="submit">Search</button>
     </form>
+        
+        
+            <div class="bouton">
+            <input type="checkbox" name="beer" id="beer" /> <label for="beer">Beer</label>
+            <input type="checkbox" name="vodka" id="vodka" /> <label for="vodka">Vodka</label>
+            <input type="checkbox" name="whiskey" id="whiskey" /> <label for="whiskey">Whiskey</label>            <input type="checkbox" name="cocktail" id="cocktail" /> <label for="cocktail">Cocktail</label>
+                </div>
+
+
+        
+    </form>
+    </div>
     {{#each b in searchdisplay }}
             <p>{{b.BarName}}</p>
             <p>{{b.BarCity}}</p>
